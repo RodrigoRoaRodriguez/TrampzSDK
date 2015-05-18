@@ -1,6 +1,5 @@
 # TrampzSDK
-Tramps SDK is a simple API for BLE-buttons that mekes it easy to define callbacks for the different button presses on 
-the device without any knowledge of Bluetooth Low Energy (BLE). 
+Tramps SDK is a simple API for the buttons in the [TI-BLE-Sensortag](http://www.ti.com/tool/cc2541dk-sensor) that makes it easy to define callbacks for the different button presses on the device without any required knowledge of the Bluetooth Low Energy (BLE) stack. 
 
 In case you are not interested in forking this repository or building your own dll you can download the ready to use library  [here](https://www.nada.kth.se/~ezeddin/trampzsdk/TrampzSDK.dll).
 
