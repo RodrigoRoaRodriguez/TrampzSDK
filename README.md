@@ -1,12 +1,17 @@
 # TrampzSDK
 Tramps SDK is a simple API for BLE-buttons that mekes it easy to define callbacks for the different button presses on 
-the device without any knowledge of Bluetooth Low Energy (BLE).
+the device without any knowledge of Bluetooth Low Energy (BLE). 
 
-# How to Hello Trampz (Tutorial)
+In case you are not interested in forking this repository or building your own dll you can download the ready to use library  [here](https://www.nada.kth.se/~ezeddin/trampzsdk/TrampzSDK.dll).
+
+## Documentation
+Complete documentation for this SDK can be found [here](https://www.nada.kth.se/~ezeddin/trampzsdk/annotated.html).
+
+## How to Hello Trampz (Tutorial)
 1. Open **VisualStudio**
 2. __FILE -> New -> Project -> Console Application__.
 3. Right click __references -> Add references__
-4. Click the __Browse__ and navigate to  __TrampzSDK.dll__ and then click the __Add__ button.
+4. Click the __Browse__ and navigate to [TrampzSDK.dll](https://www.nada.kth.se/~ezeddin/trampzsdk/TrampzSDK.dll) and then click the __Add__ button.
 5. Create a new listener class to define button behaviour:
 
       ``` csharp
