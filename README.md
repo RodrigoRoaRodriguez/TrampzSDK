@@ -48,12 +48,12 @@ Complete documentation for this SDK can be found [here](https://www.nada.kth.se/
 7. Done. Now you can start the application. It will print the message every time you press the left button on a coupled sensortag.
     
 ## Windows 8 and BLE (Important, specially if you have never used BLE with Windows)
-Technically speaking you should not have to pair your BLE devices in order to communicate with them. However that is **not** the case with the Windows 8 operating system. Much like traditional Bluetooth you will have to couple them with your operating system. To do this follow these steps:
+Technically speaking you should not have to pair your BLE devices in order to communicate with them. However that is **not** the case with the Windows 8 operating system. Much like traditional Bluetooth you will have to couple your BLE device with your operating system. To do this follow these steps:
     
 1. Press **WindowsKey + C**, to show the charms bar.
 2. Press on **Settings**->**Change PC Settings**->**PC & Devices**->**Bluetooth**
 3. Select the **SensorTag** and press **Pair**
-4. It will ask for password. Enter `0000`
+4. It will ask for a password. Enter `0000`
 5. Turn on your TI-sensortag by pressing the button on the side.
 6. Your TI-sensortag is now ready to use.
     
