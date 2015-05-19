@@ -1,3 +1,4 @@
+![Tramp](https://www.nada.kth.se/~rorr/Tramp.jpg)
 # TrampzSDK
 Tramps SDK is a simple API for the buttons in the [TI-BLE-Sensortag](http://www.ti.com/tool/cc2541dk-sensor) that makes it easy to define callbacks for the different button presses on the device without any required knowledge of the Bluetooth Low Energy (BLE) stack. 
 
@@ -51,7 +52,7 @@ Complete documentation for this SDK can be found [here](https://www.nada.kth.se/
 Technically speaking you should not have to pair your BLE devices in order to communicate with them. However that is **not** the case with the Windows 8 operating system. Much like traditional Bluetooth you will have to couple your BLE device with your operating system. To do this follow these steps:
     
 1. Press **WindowsKey + C**, to show the charms bar.
-2. Press on **Settings**->**Change PC Settings**->**PC & Devices**->**Bluetooth**
+2. Press on **Settings**->**Change PC Settings**->**PC and Devices**->**Bluetooth**
 3. Select the **SensorTag** and press **Pair**
 4. It will ask for a password. Enter `0000`
 5. Turn on your TI-sensortag by pressing the button on the side.
